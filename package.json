@@ -1,0 +1,29 @@
+{
+  "name": "sf",
+  "version": "1.0.0",
+  "description": "Service Framework 1.0",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "export NODE_ENV='production' && node server.js",
+    "dev": "export NODE_ENV='development' && node server.js",
+    "trace": "node --trace_gc server.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "Owen Tang",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "compressible": "^2.0.11",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-router": "^7.2.1",
+    "log4js": "^2.3.3",
+    "sails-redis": "^0.10.7",
+    "underscore": "^1.8.3",
+    "uuid": "^3.1.0",
+    "waterline": "^0.11.11"
+  }
+}
