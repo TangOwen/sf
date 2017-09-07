@@ -1,5 +1,6 @@
 {
   "name": "@tt/sf",
+  "repository": "TangOwen/sf",
   "version": "1.0.0",
   "description": "Service Framework 1.0",
   "main": "app.js",
