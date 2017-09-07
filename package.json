@@ -1,5 +1,5 @@
 {
-  "name": "sf",
+  "name": "@tt/sf",
   "version": "1.0.0",
   "description": "Service Framework 1.0",
   "main": "app.js",
